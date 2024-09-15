@@ -18,6 +18,6 @@ public class Ejercicio1_1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(“Ha pasado un frame”);
+        Debug.Log(“Ha pasado un frame”); //Porque lo llama a cada frame.
     }
 }
