@@ -7,7 +7,7 @@ public class Ejercicio2_1 : MonoBehaviour
     int edad = 26;
     float altura = 1.56f;
     string nombre = Astrid;
-    int iva =;
+    int iva;
     float peso = 56.4;
     char letra = 'A';
     int minutos = 30;
