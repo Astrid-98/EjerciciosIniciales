@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ejercicio2_2 : MonoBehaviour
 {
     int vidas = 7;
-    float exp = 5.6;
+    float exp = 5.6f;
     char carac = 'c';
 
     float resultadoSuma;
@@ -16,7 +16,12 @@ public class Ejercicio2_2 : MonoBehaviour
     {
         Debug.Log(vidas);
         Debug.Log(exp);
-        Debug.Log(resultadoSuma) = vidas + exp;
+
+        float resultadoSuma = vidas + exp;
+        Debug.Log(resultadoSuma);
+
+        float resultadoResta = exp - vidas;
+        Debug.Log (resultadoResta);
     }
 
     // Update is called once per frame
