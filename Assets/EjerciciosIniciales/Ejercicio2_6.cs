@@ -14,8 +14,7 @@ public class Ejercicio2_6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        mediaPuntuacion = (puntuacion1 + puntuacion2 + puntuacion3) / 3;
+        mediaPuntuacion = (puntuacion1 + puntuacion2 + puntuacion3)/ 3;
         Debug.Log(mediaPuntuacion);
 
     }
