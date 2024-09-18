@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Ejercicio2_6 : MonoBehaviour
 {
-    int puntuacion1 = 5;
-    int puntuacion2 = 3;
+    float puntuacion1 = 5;
+    float puntuacion2 = 3;
     int puntuacion3 = 20;
 
     float mediaPuntuacion1;
@@ -15,6 +15,7 @@ public class Ejercicio2_6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //4 , 9, 7 --> Los sumas y los divides entre 
         mediaPuntuacion1 = puntuacion1 / 2;
         Debug.Log("Puntuacion1 = " + puntuacion1 + " Media = " + mediaPuntuacion1);
 
