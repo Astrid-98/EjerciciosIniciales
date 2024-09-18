@@ -12,7 +12,7 @@ public class Ejercicio2_7 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {   
-        unidadesOroFarmeadas = oroPorSegundo *  (segundosPorHora * horas) ;
+        unidadesOroFarmeadas = oroPorSegundo * (segundosPorHora * horas);
         Debug.Log(unidadesOroFarmeadas);
     }
 
