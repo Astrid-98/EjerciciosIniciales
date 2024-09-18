@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class Ejercicio2_8 : MonoBehaviour
 {
-    int vidas = 100;
-    // Start is called before the first frame update
+    float vidaInicial = 120;
+    float porcentaje = 0.03f;
+    float vida;
+
+
+
+    
     void Start()
     {
-        while (vidas > 0)
-        {
-            Debug.Log("Sigo vivo");
-            vidas--;
-        }
-
+        //vida = vidaInicial;
+        //Debug.Log(vida);
     }
-
     // Update is called once per frame
     void Update()
     {
