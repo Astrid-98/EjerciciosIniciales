@@ -7,7 +7,7 @@ public class CreadorPersonajes : MonoBehaviour
     int numero = 5;
     string testo = "Hola";
     float num = 3.4f;
-    [SerializeField] Personaje personaje;
+    [SerializeField] Personaje link;
     //[SerializeField]Personaje troll = null; //Esta llamando al script. Tiene tipo, nombre y valor, su valor por defecto es null.
     //Para encadenar valor del unity al script tiene que estar serializado.
 
@@ -17,7 +17,8 @@ public class CreadorPersonajes : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //link`s life, es la forma de leer el punto
+        link.Vida = 100;
     }
 
     
