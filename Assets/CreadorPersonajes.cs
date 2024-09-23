@@ -17,8 +17,16 @@ public class CreadorPersonajes : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //link`s life, es la forma de leer el punto
+        //link`s life, forma de leer el punto punto: es como apostrofe en ingles.
         link.Vida = 100;
+
+        //link´s name;
+        //link.Nombre;
+
+        //link`s velocity
+        //link.Velocidad;
+
+       
     }
 
     
