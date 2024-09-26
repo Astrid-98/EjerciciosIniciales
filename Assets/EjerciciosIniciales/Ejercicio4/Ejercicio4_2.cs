@@ -13,12 +13,6 @@ public class Ejercicio4_2 : MonoBehaviour
     {
         ConstruirNombre();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     void ConstruirNombre()
     {
         Debug.Log("La persona se llama " + nombre + " " + apellido1 + " "  + apellido2 + " " + "y tiene " + edad + " años");
