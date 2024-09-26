@@ -12,7 +12,7 @@ public class Ejercicio5_1 : MonoBehaviour
     {
         if (vidaPersonaje1 == vidaPersonaje2)
         {
-            Debug.Log("La batalla esta reñida")
+            Debug.Log("La batalla esta reñida");
         } 
     }
 
