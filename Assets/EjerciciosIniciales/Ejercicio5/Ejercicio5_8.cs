@@ -15,7 +15,7 @@ public class Ejercicio5_8 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       if(horas >= 0 && horas <= 23 || minutos >= 0 && minutos <= 59 || segundos >= 0 && segundos <= 59)
+       if((horas >= 0 && horas <= 23) && (minutos >= 0 && minutos <= 59) && (segundos >= 0 && segundos <= 59))
        {
             Debug.Log(horas + " : " + minutos + " : " + segundos);
        }
