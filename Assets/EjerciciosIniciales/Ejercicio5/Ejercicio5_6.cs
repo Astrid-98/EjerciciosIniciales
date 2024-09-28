@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Ejercicio5_6 : MonoBehaviour
 {
+    [SerializeField]int nivel;
+
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (nivel % 10 == 0)
+        {
+            Debug.Log("Nuevo ataque nivel " + nivel);
+        } 
+        else
+        {
+            Debug.Log(nivel);
+        }
     }
 }
