@@ -6,15 +6,25 @@ public class Ejercicio7_6 : MonoBehaviour
 {
     [SerializeField] int numero;
 
-    // Start is called before the first frame update
+    [SerializeField] int numero2;
+
+
     void Start()
     {
-        
-        //    desde  1,        1 hasta numero,    de uno en uno.
-        for (int miNumero = 1; miNumero <= numero; miNumero++)
+        int miNumero = numero;
+        while (miNumero >= -numero)
         {
-            Debug.Log(miNumero);  //imprime miNumero            
+            Debug.Log(miNumero);
+            miNumero--;
+            
         }
+
+        
+        for (int miNumero2 = numero2; miNumero2 >= -numero2; miNumero2--)
+        {
+            Debug.Log(miNumero2);          
+        }
+
 
     }
 
