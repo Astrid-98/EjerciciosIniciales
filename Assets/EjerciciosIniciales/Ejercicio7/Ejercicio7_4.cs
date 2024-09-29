@@ -9,7 +9,7 @@ public class Ejercicio7_4 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {   //desde numero 100, hata 1, de uno en uno.
-        for (int numero = 100; numero > 1; numero--)
+        for (int numero = 100; numero > 1; numero--) //me cuesta los signos
         {
             Debug.Log(numero);
         }
