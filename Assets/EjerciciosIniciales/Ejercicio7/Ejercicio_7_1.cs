@@ -8,7 +8,7 @@ public class Ejercicio_7_1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        while ( vidas < 100)
+        while ( vidas < 101)
         {
             Debug.Log("Sigo vivo" + vidas);
             vidas++;
